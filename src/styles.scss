@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-flex;
+}
+
+:root {
+  --primary-color: #aed6dc;
+  --secondary-color: #ff9a8d;
+  --tertiary-color: #4a536b;
+
+  --font-xxs: 12px;
+  --font-xs: 13px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 18px;
+  --font-xl: 20px;
+  --font-xxl: 22px;
+  --font-heading: 32px;
+  --border-radius: 5px;
+  --nav-height: 100px;
+}
+
+// #aed6dc, #ff9a8d, #4a536b

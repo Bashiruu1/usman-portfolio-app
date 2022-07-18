@@ -1,0 +1,23 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  background-color: var(--primary-color);
+  height: var(--nav-height);
+  border-radius: var(--border-radius);
+
+  .nav-home-text {
+    margin: 1rem;
+  }
+
+  .nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+  }
+  .nav-item {
+    width: 100%;
+    font-size: var(--font-xs);
+  }
+}

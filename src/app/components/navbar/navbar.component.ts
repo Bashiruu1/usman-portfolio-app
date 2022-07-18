@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { navbarData } from './navbar-data';
 
 @Component({
   selector: 'portfolio-navbar',
@@ -7,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   constructor() {}
+
+  collapsed = false;
+  navData = navbarData;
 
   ngOnInit(): void {}
 }
