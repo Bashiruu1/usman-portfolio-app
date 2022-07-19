@@ -1,1 +1,39 @@
-<p>about-me works!</p>
+<section class="about-container">
+  <h2 class="heading">About Me</h2>
+  <div class="content">
+    <div class="about-info">
+      <div class="about-text">
+        <p>
+          Sed tristique diam id odio pharetra semper. Mauris elementum dignissim
+          tincidunt. Suspendisse rutrum dapibus vehicula. Mauris faucibus est
+          nec arcu consequat sodales. Ut id dolor magna. Vestibulum dictum dolor
+          et nibh consequat, eu vehicula nibh vestibulum. Mauris in metus ante.
+        </p>
+        <p>
+          Sed tristique diam id odio pharetra semper. Mauris elementum dignissim
+          tincidunt. Suspendisse rutrum dapibus vehicula. Mauris faucibus est
+          nec arcu consequat sodales. Ut id dolor magna. Vestibulum dictum dolor
+          et nibh consequat, eu vehicula nibh vestibulum. Mauris in metus ante.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+          vestibulum orci, nec sollicitudin arcu. Aenean sit amet sollicitudin
+          nunc. Nam lacinia, est et fringilla fermentum, sem tellus finibus
+          enim, sed pharetra turpis sem id risus. Vestibulum quis rhoncus est,
+          non pellentesque nulla. Aenean et enim eu lorem pretium congue a non
+          ex. Maecenas tristique tristique molestie
+        </p>
+      </div>
+      <div class="skills-list">
+        <ul>
+          <li class="skills-item" *ngFor="let skillItem of skills">
+            {{ skillItem }}
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="about-pic-container">
+      <img src="" alt="Some Image of Myself Maybe" class="pic" />
+    </div>
+  </div>
+</section>

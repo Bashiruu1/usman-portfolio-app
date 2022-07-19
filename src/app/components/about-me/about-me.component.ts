@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { skillsData } from './about-me-data';
 
 @Component({
   selector: 'portfolio-about-me',
@@ -8,5 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class AboutMeComponent implements OnInit {
   constructor() {}
 
+  skills = skillsData;
   ngOnInit(): void {}
 }

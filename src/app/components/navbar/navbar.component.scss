@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px;
   background-color: var(--primary-color);
   height: var(--nav-height);
   border-radius: var(--border-radius);
@@ -19,5 +18,6 @@
   .nav-item {
     width: 100%;
     font-size: var(--font-xs);
+    justify-content: center;
   }
 }

@@ -16,5 +16,3 @@ export const navbarData = [
     label: 'Contact',
   },
 ];
-
-//About Experience Work contact

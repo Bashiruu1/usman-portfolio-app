@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: var(--default-font);
 }
 
 body {
@@ -14,6 +15,10 @@ a {
 
 li {
   display: inline-flex;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -31,6 +36,8 @@ li {
   --font-heading: 32px;
   --border-radius: 5px;
   --nav-height: 100px;
+
+  --default-font: "Open Sans", sans-serif;
 }
 
 // #aed6dc, #ff9a8d, #4a536b
